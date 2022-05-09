@@ -9,7 +9,8 @@ This API is Free to use under [CC Lisence](https://github.com/alipbudiman/Restap
 
 You can [contact me](https://fxgdev.site/alifbudiman.html) for help this project or ask some question
 
-
+Last update:
+Version: 1.7
 Host: https://fxgapi.azurewebsites.net
 
 ### STATUS API ###
@@ -239,6 +240,16 @@ client = RestfulAPI()"
 ret = client.getHarrasword()
 client.JsonPrint(ret)
 ```
+
+### GAMES FAMILY 100 ###
+
+```PY
+from RestApiFXG import *
+client = RestfulAPI()"
+ret = client.getFamily100Quiz()
+client.JsonPrint(ret)
+```
+
 
 # ![logo](https://i.ibb.co/zJvVhJ3/Untitled-design-88.png)
 Regards FXG-Dev
