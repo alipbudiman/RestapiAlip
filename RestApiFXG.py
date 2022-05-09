@@ -4,7 +4,7 @@ class RestfulAPI():
     def __init__(self, apikey=None):
         self.host       = 'https://fxgapi.azurewebsites.net/'
         self.github     = 'https://github.com/alipbudiman/RestApiFXG'
-        self.ver        = '1.6'
+        self.ver        = '1.7'
         self.getreq     = requests.get
         self.postreq    = requests.post
         self.apikey     = apikey
@@ -23,6 +23,14 @@ class RestfulAPI():
                 print(" WELCOME TO FXG FREE REST API\n | Current version : "+x["Version"])
                 if self.apikey != None:
                     print(" | Login as PRremium users")
+        except Exception as e:
+            raise Exception(f"Api Exception Error: [map] {path} [detail] {e}")
+    
+    def getFamily100Quiz(self):
+        path = "/family100"
+        try:
+            x = self.getreq(self.host+path).json()
+            return x
         except Exception as e:
             raise Exception(f"Api Exception Error: [map] {path} [detail] {e}")
     
