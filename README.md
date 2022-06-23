@@ -24,6 +24,15 @@ ret = client.StatusApi()
 client.JsonPrint(ret)
 ```
 
+### FIND IP ADRESS ###
+
+```PY
+from RestApiFXG import *
+client = RestfulAPI()
+ret = client.GetIPAdress("your ip adress")
+client.JsonPrint(ret)
+```
+
 ### RANDOM PROFILE ###
 
 ```PY
