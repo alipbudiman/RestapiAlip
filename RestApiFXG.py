@@ -246,6 +246,17 @@ class RestfulAPI():
         except Exception as e:
             raise Exception(f"Api Exception Error: [map] {path} [detail] {e}")
     
+    def GetIPAdress(self,ipadress):
+        path = "/ipwhois"
+        params = {
+            'ipaddr':ipadress
+        }
+        try:
+            x = self.postreq(self.host+path, params=params).json()
+            return x
+        except Exception as e:
+            raise Exception(f"Api Exception Error: [map] {path} [detail] {e}")
+    
     def StatusApi(self):
         path = "/status"
         try:
