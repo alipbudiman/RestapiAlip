@@ -15,6 +15,10 @@ Version: 1.7
 
 Host: https://fxgapi.azurewebsites.net
 
+
+# Give Donation
+https://saweria.co/alipbudiman
+
 ### STATUS API ###
 
 ```PY
