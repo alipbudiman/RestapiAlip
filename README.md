@@ -7,7 +7,7 @@
 Free Rest API for Bot, Website & anything
 This API is Free to use under [CC Lisence](https://github.com/alipbudiman/RestapiAlip/blob/main/LICENSE)
 
-You can [contact me](https://fxgdev.site/alifbudiman.html) for help this project or ask some question
+You can [contact me](https://fxgdev.site/alifbudiman.html) for help this project, ask some question or report if you find bug
 
 Last update: 05/09/22
 
