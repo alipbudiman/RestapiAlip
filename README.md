@@ -11,7 +11,7 @@ You can [contact me](https://fxgdev.site/alifbudiman.html) for help this project
 
 Last update: 05/09/22
 
-Version: 1.7
+Version: 1.8
 
 Host: https://fxgapi.azurewebsites.net
 
@@ -262,6 +262,15 @@ client.JsonPrint(ret)
 from RestApiFXG import *
 client = RestfulAPI()"
 ret = client.getFamily100Quiz()
+client.JsonPrint(ret)
+```
+
+### SHORTEN URL
+
+```PY
+from RestApiFXG import *
+client = RestfulAPI()
+ret = ShortenURL("your url want to short")
 client.JsonPrint(ret)
 ```
 
