@@ -4,7 +4,7 @@ class RestfulAPI():
     def __init__(self, apikey=None):
         self.host       = 'https://fxgapi.azurewebsites.net/'
         self.github     = 'https://github.com/alipbudiman/RestApiFXG'
-        self.ver        = '1.7'
+        self.ver        = '1.8'
         self.getreq     = requests.get
         self.postreq    = requests.post
         self.apikey     = apikey
