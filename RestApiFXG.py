@@ -26,6 +26,17 @@ class RestfulAPI():
         except Exception as e:
             raise Exception(f"Api Exception Error: [map] {path} [detail] {e}")
     
+    def ShortenURL(self, url):
+        path = "/bitly"
+        try:
+            params = {
+                'url':url
+            }
+            x = self.getreq(self.host+path,params=params).json()
+            return x
+        except Exception as e:
+            raise Exception(f"Api Exception Error: [map] {path} [detail] {e}")
+    
     def getFamily100Quiz(self):
         path = "/family100"
         try:
