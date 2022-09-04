@@ -2,9 +2,9 @@ import requests, json
 
 class RestfulAPI():
     def __init__(self, apikey=None):
-        self.host       = 'https://fxgapi.azurewebsites.net/'
+        self.host       = 'https://fxgapi.herokuapp.com/'
         self.github     = 'https://github.com/alipbudiman/RestApiFXG'
-        self.ver        = '1.8'
+        self.ver        = '1.9'
         self.getreq     = requests.get
         self.postreq    = requests.post
         self.apikey     = apikey
