@@ -11,9 +11,9 @@ You can [contact me](https://fxgdev.site/alifbudiman.html) for help this project
 
 Last update: 05/09/22
 
-Version: 1.8
+Version: 1.9
 
-Host: https://fxgapi.azurewebsites.net
+Host: https://fxgapi.herokuapp.com
 
 
 # Give Donation
