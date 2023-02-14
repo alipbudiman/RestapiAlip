@@ -3,7 +3,7 @@
 [![Supported python versions: 3.x](https://i.ibb.co/YDhJ8DC/1-3-2.png "supported python versions: 3.x")](https://www.python.org/downloads/)
 [![Contact Author](https://i.ibb.co/HX6ts1F/1-3-4.png "contact author")](https://fxgdev.site/alifbudiman.html)
 
-# RestapiAlip
+# RestapiAlip [SERVERNYA UDAH MATI, HEROKU UDAH GA GRATISAN LAGI WKWKWK]
 Free Rest API for Bot, Website & anything
 This API is Free to use under [CC Lisence](https://github.com/alipbudiman/RestapiAlip/blob/main/LICENSE)
 
@@ -13,11 +13,8 @@ Last update: 05/09/22
 
 Version: 1.9
 
-Host: https://fxgapi.herokuapp.com
+Host: https://fxgapi.herokuapp.com (DIE)
 
-
-# Give Donation
-https://saweria.co/alipbudiman
 
 ### STATUS API ###
 
